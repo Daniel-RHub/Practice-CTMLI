@@ -1,6 +1,6 @@
 # ML vs other algorithm
 
-# Let's train a simple Scikit-Learn Linear model that returns the sum of two numbers
+# Scikit-Learn Linear model that returns the sum of two numbers
 from sklearn import linear_model
 import numpy as np
 
@@ -25,5 +25,3 @@ print("Predicted sum of 60 and 24 is " + str(predicted_sum))
 # Now, our model should have 1, 1 as the coefficients which means it figured out that for 2 inout integers,
 # it has to return their sum
 print("Coefficients of both the inputs are " + str(linear_regression_model.coef_))
-
-# This is, of course, very basic stuff, but I hope you get the idea.
